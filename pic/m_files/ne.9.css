@@ -1,0 +1,227 @@
+body {
+	margin-top: 0;
+  font-family: sans-serif;
+/*  background-image: url("/images/background.png");*/
+}
+
+td.b1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+td.b {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 0.5em;
+}
+
+a.n {
+	color: green;
+}
+
+a.r {
+	color: blue;
+}
+
+a.ne {
+	color: orange;
+}
+
+a.el {
+	color: gray;
+    font-size: x-small;
+}
+
+a.tex {
+  font-size: small;
+  font-family: arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a {
+    text-decoration: none;   
+}
+
+.text {
+    font-size:medium;
+}
+
+h1, h2, h3 {
+  margin: 0.2em;
+}
+
+a.gl {
+    color:gray;
+    text-decoration:none
+}
+td.result {
+    font-size:large;
+}
+
+
+/* popup div with user history */
+#user_history {
+    position: absolute;
+    visibility: hidden;
+    top: 30px;
+    right: 20px;
+    left: 20px;
+    background-color: #F0F0F0;
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+/* graph plotter control buttons */
+img.control:hover {
+  cursor: pointer;
+}
+
+a.author {
+  color: gray;
+}
+
+a.menu {
+  display: block;
+  padding: 5px;  
+}
+
+/* classes for individual css properties */
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+table.center, div.center {
+  margin: 0 auto;
+}
+.right {
+  text-align: right;
+}
+.justify {
+  text-align: justify;
+}
+.wide {
+  width: 100%;
+}
+.right {
+  float: right;
+}
+table.cellpadding3 td {
+  padding: 3px;
+}
+table.cellpadding10 td {
+  padding: 10px;
+}
+.gray {
+  color: gray;
+}
+img { border: 0; } 
+
+table.border, table.border td {
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+
+.nowrap {
+  white-space:nowrap; 
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+/* desktop specific css */
+table.main {
+  width: 1100px;
+}
+input.full_width {
+    width: 80%;
+}
+input.full_width_60 {
+    width: 60%;
+}
+input.full_width_60 {
+    width: 40em;
+}
+input.full_width_20 {
+    width: 20em;
+}
+div.full_width {
+    width: 80%;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.shadow {
+  box-shadow: 4px 4px 12px 2px #808080;
+  margin: 5px auto 12px auto;
+  padding: 4px;
+}
+
+/* Prevent arrows from showing up on a number type input field. */
+input[type='number'] {
+  -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.perm_ad {
+	padding: 5px;
+}
+
+.table {
+	display: table;
+}
+
+.section {
+	padding: 5px 0;
+}
+
+.warn {
+  border-radius: 25px;
+  border: 10px solid black;
+  padding: 20px;
+  background-color: white;
+}
+
+@-webkit-keyframes blinker {
+  from {
+		opacity: 1.0;
+	}
+  to {
+		opacity: 0.0;
+	}
+}
+
+.blink{
+	animation-name: blinker;
+	animation-duration: 0.75s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-in-out;
+	animation-direction: alternate;
+	animation-name: blinker;
+
+	-moz-animation-duration: 0.75s;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-timing-function:ease-in-out;
+	-moz-animation-direction: alternate;
+
+	-webkit-animation-name: blinker;
+	-webkit-animation-duration: 0.75s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-timing-function:ease-in-out;
+	-webkit-animation-direction: alternate;
+}

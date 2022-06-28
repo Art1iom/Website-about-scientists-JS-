@@ -1,0 +1,40 @@
+
+p {	
+	display: block;
+	margin-top:35px;
+	font-size: 25px;
+    font-family: Times New Roman;
+	color: black;
+	text-align: right;
+	}
+.p {
+	display: block;
+	margin-top:45px;
+	margin-bottom: 45px;
+	font-size: 25px;
+    font-family: Times New Roman;
+	color: black;
+	text-align: center;
+}
+table {
+	
+	background-color: #EAEAEA;
+	margin: 7px 7px 15px 350px;
+}
+td{
+	text-align: center;
+}
+ol p{
+	font-size: 20px;
+}
+dfn{
+	color:red;
+}
+fieldset {
+	background-color:"#DFDDDC";
+	width:950px;
+	margin-left: 150px;
+}
+section{
+	margin-top:150px;
+}

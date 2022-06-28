@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+  background: url(../pic/fon.png)
+}
+div{
+	margin: 150px;
+}
+nav { 
+	background: black; 
+}
+nav h3
+{
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+	color: #767676;
+}
+nav h3:hover {color: #c0a97a;}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .4s ease-in-out;
+}
+.topmenu {
+  text-align: center;
+  padding: 10px 0;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li:after {
+  content: " ";
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 12px;
+  background: #d2d2d2;
+  top: 16px;
+  box-shadow: 4px -2px 0 #d2d2d2;
+  transform: rotate(30deg);
+}
+.topmenu > li:last-child:after {
+  background: none;
+  box-shadow: none;
+}
+.topmenu > li > a {
+  padding: 12px 26px;
+  color: #767676;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+.topmenu li a:hover { color: #c0a97a; }
+.submenu {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 210px;
+  margin-left: -105px;
+  background: #fafafa;
+  border: 1px solid #ededed;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.8);
+  transition: .4s ease-in-out;
+}
+.submenu li a {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px solid #efefef;
+  font-size: 12px;
+  color: #484848;
+  font-family: serif;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+header{
+	margin-top: 50px;
+	font-family: "Trebuchet MS";
+	font-size: 75px;
+	text-align: center;
+	color: black ;
+	padding: 30px;
+}
+h1 {
+	margin-top: 75px;
+	font-family: "Trebuchet MS";
+	text-align: center;
+	color: black;
+	background-image: none;
+	
+}
+h2{
+	display: block;
+	text-align: center;
+	margin: 70px 0 20px -150px;
+	font-family: "Trebuchet MS";
+	font-weight: 600px;
+}
+
+.img {
+	display: block;
+	float: left;
+	margin: 10px 15px 10px 15px;
+}
+.img:hover {
+	transform: scale(1.5);
+	-webkit-transition: all 2s;
+	-o-transition: all 0,5;
+	transition: all 0,5s linear 0,3s;
+}
+.R{
+	display: block;
+	float: right;
+	margin: 0 15px 10px 15px;
+}
+.R:hover {
+	transform: scale(1.5);
+	-webkit-transition: all 2s ;
+	-o-transition: all 0,5;
+	transition: all 0,5s linear 0,3s;
+}
+q{
+	display: block;
+	margin-top:25px;
+	font-size: 25px;
+    font-style:italic; 
+	text-align: left;
+	color: black;
+}
+dfn{
+	color:red;
+}
+footer {
+	margin: 10px;
+	text-align: center;
+}
